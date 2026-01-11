@@ -2,6 +2,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><style>
+/* Make all backgrounds black */
+body, header, main, section, footer, div {
+    background-color: #000 !important; /* force black background */
+}
+
+/* Make all text white */
+body, header, main, section, footer, div, h1, h2, h3, h4, h5, h6, p, span, a, li {
+    color: #fff !important; /* force white text */
+}
+
+/* Optional: make links visible */
+a {
+    color: #1e90ff !important; /* bright blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Video shadow for visibility */
+video {
+    box-shadow: 0 4px 15px rgba(255,255,255,0.3);
+}
+</style>
+<style>
   body {
     margin: 0;
     font-family: Arial, sans-serif;
