@@ -175,3 +175,17 @@ body{background:#0b0b0b;color:white}
 .message-box button{padding:15px;border:none;background:#00ffd5;font-weight:bold}
 
 footer{text-align:center;padding:20px;background:#050505;color:#777}
+.video-box {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.video-box video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
